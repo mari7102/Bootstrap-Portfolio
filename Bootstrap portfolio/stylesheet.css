@@ -1,0 +1,110 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    
+    font-family: 'Leto', sans-serif;
+    color: #505962;
+    background-color: #d5d5d4;
+}
+
+/*---Navigation--*/
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-color: rgb(2, 0, 0)!important;
+
+}
+
+.navbar-brand img{
+    height: 40px;
+}
+
+.navbar-nav li{
+    padding-right: 15px;
+}
+
+/*---Landing Page--*/
+
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h1{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-shadow: 7px 7px 15px black;
+    padding-bottom: 45px;
+}
+
+.caption h3{
+    font-size: 30px;
+    text-shadow: 7px 7px 15px black;
+    padding-bottom: 30px;
+}
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.selfie_box{
+    margin: 15px auto;
+    box-shadow: 0 10px 10px grey;
+    border: 1px solid #505962;
+}
+
+
+.text_box{
+    margin: 10px auto;
+    box-shadow: 0 10px 10px grey;
+    padding: 10px;
+    border: 1px solid #505962;
+}
+
+.footer{
+    margin: 80px 0 0;
+    padding: 10px;
+    
+}
+
+.icon{
+    color:white;
+}
+
+.icon:hover{
+    box-shadow: 0px 0px 10px #DCDCDC;
+    color:#DCDCDC;
+}
+
+.project_box{
+    margin: 10px 5px;
+    box-shadow: 0 10px 10px grey;
+    padding: 1px;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
